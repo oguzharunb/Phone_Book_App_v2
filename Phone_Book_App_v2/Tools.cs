@@ -13,7 +13,6 @@ namespace Phone_Book_App_v2
 
             for (int i = 0; i < repeat; i++)
             {
-
                 Console.SetCursorPosition(0, Console.CursorTop);
                 Console.Write(load + "");
                 System.Threading.Thread.Sleep(time);
@@ -186,6 +185,11 @@ namespace Phone_Book_App_v2
                     Console.WriteLine("invalid input,please try again");
                     goto tryagain;
             }
+        }
+
+        public void deneme()
+        {
+
         }
 
     }
